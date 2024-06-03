@@ -7,6 +7,7 @@ for _ in range(n):
 for _ in range(m):
     k, m = map(int,input().split())
     edge[k-1].append(m-1)
+    edge[m-1].append(k-1)
 
 visited = []
 
